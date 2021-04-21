@@ -1,1 +1,45 @@
+Descripción
 
+Lo que buscamos alcanzar en este proyecto es proporcionar una plataforma de votación segura, escalable y eficiente, que incluya tanto la votación en línea como presencial. 
+Para ello hemos enlistado algunos aspectos que consideramos primordiales para poder llevar a cabo una votación segura y justa.
+  
+  - El voto debe ser secreto, solo el elector sabe por que partido politico y/o candidato voto.
+    (La información tanto de los votantes como de el voto debe ser protegida por un metodo de encriptación seguro.)
+    
+  - Los votantes solo podrán emitir su voto una vez, ya sea por via remota o presencial.
+    (Se debe minimizar las oportunidades para que alguien ejersa el voto en nombre de otra persona.)
+    
+  - El voto debe ser directo.
+    (No debe existir ningun intermediario que exprese el sufragio en nombre de otro persona.)
+    
+  - Toda persona debe poder votar independientemente de su situación económica y social.
+  
+  - El voto debe ser intransferible.
+    (Ningun candidato puede transferir por petición los votos recibidos a otro candidato)
+  
+Propuesta
+
+Por lo tanto, para atender estos aspectos proponemos las siguientes soluciones:
+
+  - Mediante un blockchain llevar a cabo el registro de los votos.
+  Esto con la intencion de inhibir las posibilidades de que existan manipulación de los votos, ya que una vez registrado un voto en la cadena, este estara seguro y no se
+  podrá modificar.
+  
+  - Usar encriptación homomórfica para registrar los votos
+  Una alternativa al blockchain es usar encriptación homomórfica para asegurar el anonimato del voto, a la vez que se garantiza a los votantes la validez y el peso de su
+  voto en el resultado de las elecciones.
+  
+  - Determinar puntos clave donde se lleven a cabo las elecciones presenciales
+  A pesar que este formato de votación es opcional, en muchos municipios a lo largo del país, los medios digitales como lo son telefonos inteligentes y computadoras no son
+  de facil acceso a la población. Debido a esto es importante considerar y tomar medidas adecuadas para poder garantizar el derecho al voto a todas las personas del país.
+  
+  - Incluir una herramienta de traducción
+  México es un país rico en diversidad cultura, por lo que existe una variedad de idiomas que se hablan en distintas comunidades en el país. Es por esto que para garantizar
+  la inclusión en un proceso electoral se debe contar con un una herramienta que permita que las barreras de lenguaje no impidan que una persona pueda ejercer su voto de
+  manera conciente.
+  
+  - Incluir un Text-to-Speech para la inclusión 
+  Este aspecto es necesario para garantizar el voto directo a las personas ciegas, ya que a falta de un medio como el braile, se debe posibilitar una forma para que las 
+  personas discapacitadas puedan emitir su voto.
+  
+  
